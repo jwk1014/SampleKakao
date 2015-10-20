@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">샘플카카오</string>
+    <string name="search_edit_tab1_hint">이름(초성),전화번호 검색</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="search_edit_tab2_hint">채팅방 이름, 참여자 검색</string>
+    <string name="tab3_fragment_text1">내 프로필</string>
+    <string name="tab3_fragment_text2">이모티콘</string>
+    <string name="tab3_fragment_text3">플러스친구</string>
+    <string name="tab3_fragment_text4">공지사항</string>
+    <string name="tab3_fragment_text5">카카오페이</string>
+    <string name="tab3_fragment_text6">선물/쇼핑</string>
+    <string name="tab3_fragment_text7">카카오스타일</string>
+    <string name="tab3_fragment_text8">핫딜</string>
+    <string name="tab3_fragment_text9">카카오TV</string>
+    <string name="tab3_fragment_text10">웹툰/페이지</string>
+    <string name="tab3_fragment_text11">게임하기</string>
+    <string name="menu_tab1_f1_title">친구 추가</string>
+    <string name="menu_tab1_f1_s1_title">친구 목록 편집</string>
+    <string name="menu_tab1_f1_s2_title">친구 관리</string>
+    <string name="menu_tab1_f1_s3_title">그룹 만들기</string>
+    <string name="menu_tab1_f1_s4_title">그룹 관리</string>
+    <string name="menu_tab2_f1_title">채팅방목록 편집</string>
+    <string name="menu_tab3_f1_title">내가 좋아요한 콘텐츠</string>
+    <string name="menu_tab4_f1_title">설정</string>
+
+</resources>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="SettingItemView">
+        <attr name="img_src" format="integer"/>
+        <attr name="text_content" format="integer"/>
+    </declare-styleable>
+</resources>

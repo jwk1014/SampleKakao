@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="40dp">
+    <TextView
+        android:id="@+id/chat_toolbar_roomname_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_alignParentLeft="true"
+        android:gravity="center"
+        android:textSize="17sp"
+        android:text="방제목"/>
+    <TextView
+        android:id="@+id/chat_toolbar_peoplecount_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:textSize="17sp"
+        android:visibility="invisible"
+        android:textColor="@color/yellow"
+        android:gravity="center"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@+id/chat_toolbar_roomname_textview"
+        android:text="인원수"/>
+    <ImageView
+        android:id="@+id/chat_toolbar_search_imageview"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_toLeftOf="@+id/chat_toolbar_nevigation_imageview"
+        android:src="@drawable/chatroom_search_b"/>
+    <ImageView
+        android:id="@+id/chat_toolbar_nevigation_imageview"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_alignParentRight="true"
+        android:src="@drawable/chatroom_action_bar_more_icon_black"/>
+</RelativeLayout>

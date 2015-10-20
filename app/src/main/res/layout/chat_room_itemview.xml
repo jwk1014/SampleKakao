@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="90dp">
+    <ImageView
+        android:id="@+id/chat_room_itemview_imageview"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_margin="10dp"
+        android:src="@drawable/img_chat_profile_send_default"/>
+    <LinearLayout
+        android:id="@+id/chat_room_itemview_top_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/chat_room_itemview_imageview">
+        <TextView
+            android:id="@+id/chat_room_itemview_title_textview"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:gravity="center_vertical"
+            android:text="방제목"/>
+        <ImageView
+            android:id="@+id/chat_room_itemview_people_imageview"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:visibility="invisible"/>
+        <ImageView
+            android:id="@+id/chat_room_itemview_mute_imageview"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:visibility="invisible"/>
+    </LinearLayout>
+    <TextView
+        android:id="@+id/chat_room_itemview_content_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/chat_room_itemview_top_layout"
+        android:layout_below="@+id/chat_room_itemview_top_layout"
+        android:text="마지막채팅내용"/>
+    <TextView
+        android:id="@+id/chat_room_itemview_time_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_margin="10dp"
+        android:text="오전 00:00"/>
+</RelativeLayout>
